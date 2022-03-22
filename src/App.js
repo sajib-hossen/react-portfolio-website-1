@@ -1,7 +1,9 @@
+import Intro from "./components/Intro/Intro";
+
 function App() {
   return (
     <div>
-      <h1>hellow</h1>
+      <Intro />
     </div>
   );
 }
