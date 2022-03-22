@@ -1,0 +1,70 @@
+.a {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.a-left {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100%;
+}
+
+.a-right {
+    flex: 1;
+
+}
+
+.a-title {
+    font-size: 30px;
+    margin: 20px 0;
+
+}
+
+.a-subtilte {
+    margin: 15px 0;
+    font-size: 19px;
+}
+
+.a-card.bg {
+    background-color: black;
+    position: absolute;
+    top: 60px;
+    left: 60px;
+}
+
+.a-card {
+    width: 60%;
+    height: 70vh;
+    border-radius: 30px;
+    position: absolute;
+    overflow: hidden;
+
+}
+
+.a-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.a-award {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.a-award-text {
+    width: 70%;
+
+}
+
+.a-award-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 20px;
+}
