@@ -1,4 +1,5 @@
 import About from "./components/About/About";
+import Contacts from "./components/Contacts/Contacts";
 import Intro from "./components/Intro/Intro";
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <div>
       <Intro />
       <About />
+      <Contacts />
     </div>
   );
 }
