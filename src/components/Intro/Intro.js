@@ -29,8 +29,18 @@ const Intro = () => {
             </p>
           </div>
           <div className="i-btn">
-            <button> Hire Me </button>
-            <button> Download Resume </button>
+            <button className="i-btn-1">
+              <a href="#contact"> Hire Me</a>
+            </button>
+            <button className="i-btn-2">
+              <a
+                target="_blank"
+                href="https://drive.google.com/file/d/1F5jR_yHLLxxU4GrMgnNIVVbsaRxnOTtA/view?usp=sharing"
+                rel="noreferrer"
+              >
+                Download Resume
+              </a>
+            </button>
           </div>
         </div>
       </div>
